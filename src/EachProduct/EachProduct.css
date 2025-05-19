@@ -1,0 +1,28 @@
+
+.each-product-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 100px;
+        padding: 30px;
+}
+.each-product-image-wrapper img{
+    height: 400px;
+    width: 400px;
+    border: 1px solid black;
+    box-shadow: 0 0 10px black;
+    padding: 50px;
+
+}
+.each-product-details{
+    margin-left: 70px;
+}
+.each-product-button1{
+    background-color: rgb(220, 88, 44);
+    padding: 10px 60px;
+}
+.each-product-button2{
+    background-color: orange;
+     padding: 10px 60px;
+     margin-left: 10px;
+}

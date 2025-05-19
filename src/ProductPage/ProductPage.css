@@ -1,0 +1,33 @@
+
+.product-each-item{
+    display: grid;
+   grid-template-columns: repeat(4,1fr);
+}
+.product-image{
+    height: 100px;
+    width: 100px;
+}
+.product-details{
+    box-shadow: 0 0 10px grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+}
+.product-details:hover{
+  transform: scale(1.05);
+  transition: all 0.5s;
+}
+.product-button{
+    background-color: green;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+.product-button-icon{
+    display: flex;
+    gap: 10px;
+}
